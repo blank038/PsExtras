@@ -1,0 +1,28 @@
+message:
+  prefix: "&bPsExtras&f "
+  pls-enter-custom-key: "请输入自定义精灵编号."
+  player-offline: "玩家不在线."
+  in-battle: "玩家处于对战中."
+  not-found: "未找到目标精灵."
+  reload: "插件配置重载完成."
+custom-pokemons:
+  example:
+    species: "Pikachu"
+    level: 100
+    ivs:
+      hp: 31
+      defense: 31
+      attack: 31
+      special_attack: 31
+      special_defense: 31
+      speed: 31
+    evs: { }
+    skill:
+      0: "技能名"
+    capture-chance: 100
+    commands:
+      win:
+        - "say %player% hahahaha."
+      lose: [ ]
+      capture: [ ]
+debug: false

@@ -1,0 +1,23 @@
+name: PsExtras
+main: com.aiyostudio.psextras.plugin.PsExtras
+depend:
+  - AyCore
+softdepend:
+  - QuestEngine
+  - BattlePass
+  - PokeAltar
+  - PokeItem
+  - PokeToken
+  - NyPhysical
+  - PsNumeralGuessing
+  - ServerMarket
+  - PokeMarket
+  - PixelGashapon
+  - Residence
+  - PsWorldGuardItem
+  - PixelmonPvp
+  - AdvancedCrates
+version: @version@
+commands:
+  cpoke:
+    description: Command for Psextras.
